@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+.header{
+    font-size: 5vh;
+    background-color: gray;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    color: white;
+}
+.usersbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.card{
+    width: 10vw;
+    min-width: 150px;
+    text-align: center;
+    border:2px solid gray;
+    padding: 1vw;
+    border-radius: 2vh;
+    background-color: gray;
+    color: white;
+    margin: 2vh;
+}
+.card img{
+    border-radius: 100%;
+    border:3px solid white;
+    height: 70%;
+    width: 100%;
+}
+.card p{
+    margin-top: 0.5vw;
+}
+.pages{
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 0.5vw;
+}
+.pages button{
+    margin: 0.5vw;
+}
